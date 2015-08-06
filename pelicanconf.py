@@ -23,6 +23,9 @@ BOOTSTRAP_FLUID=True
 
 FAVICON='images/ASCII.png'
 
+#SITELOGO='images/ASCII.png'
+#SITELOGO_SIZE=20
+
 
 PLUGIN_PATHS = [ '/Users/mike/Pelican/pelican-plugins' ]
 PLUGINS = [ 'tag_cloud' ]
