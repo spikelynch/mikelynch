@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Mike Lynch'
-SITENAME = u'Mike Lynch'
+SITENAME = u'A Budget of Paradoxes'
 SITEURL = 'http://mikelynch.org'
 
 PATH = 'content'

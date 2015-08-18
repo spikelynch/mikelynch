@@ -3,9 +3,9 @@ Title: About
 Category: About
 Tags: meta
 ---
-![Mike]({filename}/images/mike.jpg)
+![Mike Lynch]({filename}/images/mike.jpg)
 
-I'm Mike.  I'm a developer and analyst for the [eResearch Support Group](https://eresearch.uts.edu.au/)
+I'm Mike Lynch. I'm a developer and analyst for the [eResearch Support Group](https://eresearch.uts.edu.au/)
 at the Unversity of Technology Sydney, and I also write stories,
 articles and hard-to-categorise web things.
 
