@@ -1,7 +1,7 @@
 ---
 Title: Items from the ImageNet Large Scale Image Recognition Challenge which I'm pretty sure I wouldn't be able to identify
 Slug: ImageNet
-Tags: ai, image, vision, lists
+Tags: ai, graphics, deepdreams, lists
 ---
     n01440764 tench, Tinca tinca
     n01496331 electric ray, crampfish, numbfish, torpedo
