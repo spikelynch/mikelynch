@@ -23,7 +23,7 @@ The results are not as weird, but they have a kind of dreamlike beauty,
 and reveal fascinating details about which features of particular
 classes are salient.
 
-![Goldfish, shark, stingray](/images/deepdraw_original.png)
+![Goldfish, shark, stingray](/images/deepdraw_original.jpg)
 
 
 I started tinkering with Audun's code a couple of weeks ago to see
@@ -41,19 +41,20 @@ the loss layers' image size is constrained to the size of the original
 training data, which was 224x224.  Even at that low level, applying
 the deepdraw algorithm to base images provides some really nice effects.
 
-![Shark, peacock, frog](images/deepdraw_gap.jpg)
+![Shark, peacock, frog](/images/deepdraw_gap.jpg)
 
 It's also possible to target more than one class at a time.  Sometimes
 this doesn't work, but it can generate lovely mutants, like this
 ostrich/nudibranch hybrid:
 
-![Mutants](images/deepdraw_mutants.jpg)
+![Mutants](/images/deepdraw_mutants.jpg)
 
 Audun's original code worked on larger images by applying the technique
 to randomly-selected 224x224 tiles, which can produce some nice
-effects.
+effects, but the hallucinations aren't as nicely correlated with the
+base image:
 
-![Girl with traffic light earrings](images/girl_with_traffic_light.jpg)
+![Regent St salamanders](/images/deepdraw_regents.jpg)
 
 When I modifed the code to apply the loss layer to different image
 sizes without cropping, it crashed.  My knowledge of how neural nets
