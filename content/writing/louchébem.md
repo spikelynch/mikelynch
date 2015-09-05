@@ -2,7 +2,7 @@
 Title: The Library of Louchébem
 Tags: fantasy, parody, writing
 ---
-The chronicles of [Louchébem](https://nannygoathill.wordpress.com/louchebem/), an ancient city shrouded in myth, legend and metafiction, which started out as a series of short vignettes on [Nannygoat Hill](http://nannygoathill.wordpress.com) in 2010.  Writing thirty of these is the closest I've come to doing NaNoWriMo.  'The Faithful Alchemist', a more substantial story in the same setting, appeared in [pinknantucket press'](http://pinknantucket.com.au/) [Materiality: PRECIOUS](http://pinknantucket-press.myshopify.com/products/materiality-precious-hard-copy-digital), which is still (I think) available for sale.
+The chronicles of [Louchébem](https://nannygoathill.wordpress.com/louchebem/), an ancient city shrouded in myth, legend and metafiction, which started out as a series of short vignettes on [Nannygoat Hill](http://nannygoathill.wordpress.com) in 2010.  Writing thirty of these is the closest I've come to doing NaNoWriMo.  'The Faithful Alchemist', a more substantial story in the same setting, appeared in [pinknantucket press'](http://pinknantucket.com.au/) [Materiality: PRECIOUS](http://www.getyourcrankon.com/buy-buy-buy/materiality-precious), which is still available for sale.
 
 An observant reader could reconstruct my tastes in fantastic literature from noting the authors I've parodied or stolen from here. Someday I'm going to collect it all as a (very short) e-book.
 

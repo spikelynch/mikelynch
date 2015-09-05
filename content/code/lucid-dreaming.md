@@ -50,8 +50,8 @@ ostrich/nudibranch hybrid:
 ![Mutants](/images/deepdraw_mutants.jpg)
 
 Audun's original code worked on larger images by applying the technique
-to randomly-selected 224x224 tiles, which can produce some nice
-effects, but the hallucinations aren't as nicely correlated with the
+to randomly-selected 224x224 tiles, which can produce some interesting
+effects, but the hallucinations aren't very closely correlated with the
 base image:
 
 ![Regent St salamanders](/images/deepdraw_regents.jpg)
