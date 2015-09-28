@@ -1,21 +1,8 @@
---
+---
 Title: The Homunculus
 Tags: ai, code, language, functional
 Slug: homunculus
-
-* In all humility: I used to be like this
-* the nerd mistake: computers are idiots
-* (digression about law)
-* digression about bitcoin mashing together several different and
-  distinct things
-* creating an image of themselves which they project onto others
-* (digression on interdisciplinary mischief)
-* relevance to Haskell: true functions, immutability
-* side-effects are not side-effects: they are the essence of
-imperative code
-
-_The first in a series of posts about the philosophy of programming_
-
+---
 This is the first in a series of posts about the way we think about
 programming, the influence these ideas have on how we write code
 and what languages we choose, and why I like the functional
@@ -28,13 +15,13 @@ should be taken as part sketchy meditation on the philosophy of
 programming, part mea culpa.  I don't want to add another "burn
 down software and start again" rant to the literature.
 
+### An unfair case
+
 This first post is a digression into an unfairly extreme case of how
 IT people misunderstand law, and a confession.  Here is the the
-extreme case, taken from the manifesto of Ethereum, a project which is
+extreme case, taken from the manifesto of [Ethereum](http://etherscripter.com/what_is_ethereum.html), a project which is
 planned as a replacement for both Bitcoin, and, speaking of burning
 things down and starting again, the civil law:
-
-http://etherscripter.com/what_is_ethereum.html
 
 > The authors of laws and the writers of contracts face a special kind
 > of challenge. Ideally, there should never be any confusion about the
@@ -61,8 +48,7 @@ recognise the way IT geeks misunderstand the law from a mile away. I
 know this misunderstanding intimately, having suffered from it. It
 can be summed up in a sentence:
 
-> Legal rules are sufficiently like a computer progam that the one can
-> be analysed and reformed using techniques from the other.
+**Legal rules are sufficiently like a computer progam that the one can be analysed and reformed using techniques from the other.**
 
 This is one of those seductive ideas that's superficially plausible
 but wrong. It's wrong in a way which makes it very bad for analysing
@@ -81,7 +67,7 @@ It's my contention that this is not only a bad way to think about both
 language the law, but is also a bad way to think about computers and
 software.
 
-# Commands
+### Commands
 
 There's a metaphor which is used to introduce kids to computers: I
 can't remember where I first encountered it, possibly in one of the
@@ -115,7 +101,7 @@ appealing to: programs are sets of precise, unambiguous instructions,
 so if we can somehow embody laws in code, we can build a legal system
 which is free from ambiguous language (and, perhaps, lawyers).
 
-# No-one home
+### No-one home
 
 The metaphor hides a crucial aspect of human language: it is always
 addressed to a person. By this I don't just mean that human listeners
@@ -125,7 +111,7 @@ human language is part of a dialogue between persons who are capable
 of action and who are members of a community. The imaginary homunculus
 to whom a program is addressed is something like an ideal slave: the
 programmer (the master) provides a set of instructions to cover every
-eventuality, and the computer will follow them like an ideal slave.
+eventuality, and the computer follows them.
 
 Contracts, and laws in general, like all examples of human language,
 are not like this. The essence of a contract is that of mutual
@@ -133,14 +119,14 @@ promise, usually a promise to pay in consideration of a promise to
 provide either goods, services or labour: the contract per se is a
 formal recognition of an agreement between persons, and it would make
 no difference if the contract were expressed as a computer programme,
-rather than a template filled out by a bored junior solicitor, in a
+rather than as a template filled out by a bored junior solicitor, in a
 case where the parties unintentionally misunderstood one another, or
 where one was seeking to actively deceive the other. It's important to
 be diligent in checking a contract for errors, omissions or
 ambiguities, but removing these alone wouldn't obviate the need for a
 law of contract.
 
-# Hard cases and corner cases
+### Hard cases and corner cases
 
 Another way of looking at the quality which social and legal systems
 possess, and their radical difference from the systems governed by
@@ -162,10 +148,29 @@ exaggerate the most absurd consequences of copyright that we can think
 of. This is a misapplication of an honourable and useful trait: the
 ability to identify "corner cases" - situations, or inputs, which will
 tend to produce bugs, either because the programmer hasn't anticipated
-them, or through pure cussedness, admirable summed up in this tweet:
+them, or through pure cussedness.  The job of a quality assurance
+engineer is to find corner cases, and is admirably summed up in this
+tweet:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="nl" dir="ltr">QA Engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.</p>&mdash; Bill Sempf (@sempf) <a href="https://twitter.com/sempf/status/514473420277694465">September 23, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js"
 charset="utf-8"></script>
 
-Hard cases may make bad law, but corner cases make good software.
+In law, and in the much broader field of social relations which take
+place in areas which are governed by law, many corner cases can be
+resolved using common sense - which is not an unproblematic idea at
+all, but which is useful for expressing the idea that these social
+relations are not taking place between automata, but between human
+beings who are capable of understanding one another and are part of
+some sort of community of practice.
+
+Hard cases may make bad law, but corner cases make good software: they
+are also very difficult to exhaustively deal with using imperative
+programming, which is the formal name of the programming paradigm
+which I've been caricaturing under the name of
+"homunculus". Imperative programming not only implies a willing and
+brainless slave, but also an omniscient master, in the form of the
+programmer. While testing and quality assurance can go a long way to
+remedying this, the real solution is to get rid of the homunculus
+altogether, by shifting to a paradigm which is better at capturing
+exactly what we are trying to do when we program computers.
