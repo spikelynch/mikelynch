@@ -2,8 +2,9 @@
 Title: Scientific Babel
 Tags: review, science, publishing, language, software, academia, history
 ---
-_The Language of Science from the Fall of Latin to the Rise of English_
-[**Michael D Gordin**](http://www.michaelgordin.com/)
+_The Language of Science from the Fall of Latin to the Rise of English._ London: Profile Books, 2015
+
+[**Michael D Gordin**](http://www.michaelgordin.com/) 
 
 This book falls at the intersection of a few of my interests - language, the idea of an auxiliary or neutral meta-language, the history of science in general and academic publishing in particular. I was dimly aware that English had become increasingly important as the language of the natural sciences, but wasn't aware of how total its dominance had become. For the disciplines in question, English is now as universal a language of scholarship across the globe as Latin was across Europe in the Renaissance.
 
