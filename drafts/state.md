@@ -41,11 +41,14 @@ Scope can be used to narrow down the terms of reference even more.  The instruct
 
 This restriction still allows us to refer to boxes which aren't "local" to a subsection, and those boxes could contain values from any other parts of this page, or other pages, so the possible sequences of events which led to a particular program state is still very large.
 
-## Variables
+## Variables, objects and functions
+
+We can place further restrictions on the homunculus' workshop to reduce the opportunities for things to go wrong when it applies the tools, by applying rules to the boxes in which the materials are stored and on the tools themselves.  Boxes can be given types, which dictate the sort of thing that can be put into them, and tools can be given instructions which specify what sorts of objects they can be applied to.  Again, this is basically giving the homunculus the ability to determine in advance whether our instructions are inconsistent, before carrying them out - for example, if we say that box "A" can contain only blue objects, and that the tool "X" can only work on red objects, and that the homunculus should take a the contents of box "A" and operate on it with tool "X". It would be possible and tiresome to develop this analogy to illustrate all of the different ways in which modern programming languages attempt to anticipate bugs, but in their different ways they all boil down to an attempt to reduce the "size" of the program's state at any point ("size" is in scare quotes because we're talking about a fairly abstract concept of "size" here which isn't directly related to the size of the source code or the computer or hard drive). For example:
+
+* object-oriented languages use data encapsulation: an object is a structured data set which "walls off" its internal state and only interacts via a restricted set of operations ("methods")
+
+* event-driven programming, in a sense, "encapsulate" time by breaking programming tasks down to very simple operations that react to a restricted subset of triggers
+
+* unit testing is another form of fragmentation which breaks the criteria for the program's successful operation down into the simplest meaningful tests, allowing these to be verified in isolation from one another
 
 
-
-## Objects
-
-
-## Pure functions
