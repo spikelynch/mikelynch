@@ -68,3 +68,4 @@ The paradox I'm talking my way around here is this:
 Pretending that there's a little guy in the computer who does stuff for you, based on a set of instructions which you have written for him, is a natural way to try to understand what coding is about. But computers are formidably intricate machines, and the metaphor of the homunculus is not only an imperfect fit for them, but can actively get in the way of configuring them to do things.
 
 The homunculus seems like a slave, but I think my second reading of the metaphor is more truthful: the homunculus is a metaphor for the coder, lost in a maze of implicit state, having to decide (from all the possibilities, with whatever restrictions that make this set of possibilities more tractable) what the hell is going on here. It's better if we abandon it altogether, drop the pretense that we are writing a script for a puppet, and learn better ways to make our machines work.
+

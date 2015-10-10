@@ -1,6 +1,9 @@
 ---
 Title: State
 ---
+
+Following sections - functional.md, then algorithm.md
+
 Even though I've complained about the metaphor of the homunculus, it can be used as a useful device to explain the differences between programming paradigms to a non-technical audience. I'm optimistic about this: it's possible to understand the differences between musical or fictional genres without being a composer or a novelist, even though very little day-to-day programming is on that level. Most of it, to extend the analogies, maps onto ringtones or financial reports. You don't need to be able to program to have an appreciation of the problems and conflicts which different languages allow you to solve.
 
 Let's return to the obedient slave at the heart of it all: the homunculus. At any point in time, it (the homunculus, like Ariel in The Tempest, is genderless) has three things at its disposal:
